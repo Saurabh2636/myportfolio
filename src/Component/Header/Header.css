@@ -1,0 +1,16 @@
+.header{
+    background-color: rgb(211, 125, 125);
+    height:auto;
+    
+}
+.main{
+   text-align:center;
+   padding-top: 5vh;
+}
+.para{
+    padding-top: 2vh;
+    text-align: center;
+}
+.search{
+    margin-top:5vh
+}
