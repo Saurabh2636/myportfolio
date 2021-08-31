@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="heading">
         <h1>Contact Me</h1>
       </div>
-      <Container className="card">
+      <Container >
         <div className="inner-container">
           <Form>
             <Form.Group className="mb-3" controlId="formBasicText">

@@ -12,5 +12,11 @@
     text-align: center;
 }
 .search{
-    margin-top:5vh
+    margin-top:5vh;
+    
+}
+.top{
+   
+   color:rgb(83, 69, 69);
+   -webkit-text-stroke:  .1vw rgb(43, 40, 40);
 }
