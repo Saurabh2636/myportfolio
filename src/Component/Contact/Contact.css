@@ -1,6 +1,7 @@
 .contact{
     background-color: rgb(158, 157, 157);
-    height:auto
+    height:auto;
+    width:100%;
 }
 .inner-container{
    height:60vh

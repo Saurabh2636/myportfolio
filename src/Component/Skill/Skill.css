@@ -5,8 +5,21 @@
 .heading{
     text-align:center
 }
-.inner{
+.inner1{
     height:auto;
+    padding-bottom: 3vh;
     
-
+}
+.inner1{
+    transition:1s;
+}
+.inner1:hover{
+    transform: scale(0.9);
+    
+}
+img{
+    transition:1s;
+}
+img:hover{
+    transform: scale(1.3);
 }

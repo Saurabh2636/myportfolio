@@ -12,54 +12,54 @@ const Project = () => {
         </div>
         <Grid container  justifyContent="center" spacing={10}>
           <Grid item>
-          <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} >
+          <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} className='single' >
                 <Card.Img variant="top" className='image' src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"/>
-                <Card.Body>
+                <Card.Body className="content">
                   <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
+                  <Card.Text >
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button variant="primary" className="btn">Demo</Button>
                 </Card.Body>
               </Card>
             </Grid>
             <Grid item>
-            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} >
+            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} className='single'>
                 <Card.Img variant="top" className='image' src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"/>
-                <Card.Body>
+                <Card.Body className="content">
                   <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
+                  <Card.Text >
                     Some quick example text to build on the card title and make
                     up the bulk of the card's content.
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button variant="primary" className="btn">Demo</Button>
                 </Card.Body>
               </Card>
             </Grid>
             <Grid item>
-            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} >
+            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} className='single'>
                 <Card.Img variant="top" className='image' src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"/>
-                <Card.Body>
+                <Card.Body className="content">
                   <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                  <Card.Text >
+                   <strong> Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</strong>
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button variant="primary" className="btn">Demo</Button>
                 </Card.Body>
               </Card>
             </Grid>
             <Grid item>
-            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} >
+            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} className='single'>
                 <Card.Img variant="top" className='image' src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"/>
-                <Card.Body>
+                <Card.Body className="content">
+                  <Card.Text >
                   <Card.Title>Card Title</Card.Title>
-                  <Card.Text>
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
+                    <strong>Some quick example text to build on the card title and make
+                    up the bulk of the card's content.</strong>
                   </Card.Text>
-                  <Button variant="primary">Go somewhere</Button>
+                  <Button variant="primary" className="btn">Demo</Button>
                 </Card.Body>
               </Card>
             </Grid>
