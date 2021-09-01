@@ -6,6 +6,7 @@ import Nav from './Component/Navbar/Nav'
 import Header from './Component/Header/Header'
 import Project from './Component/Project/Project'
 import Skill from './Component/Skill/Skill'
+import Email from './Component/Email/Email'
 import Footer from './Component/Footer/Footer'
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Skill/>
           <Aboutus/>
           <Contact/>
+          <Email/>
           <Footer/>
         </div>
     </div>
