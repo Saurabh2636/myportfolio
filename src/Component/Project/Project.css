@@ -26,7 +26,7 @@
     display:block;
     width:100%;
     height:100%;
-    background:linear-gradient( to bottom , rgba(17, 131, 118, 0.5),rgba(150,200,61,1));
+    background:linear-gradient( to bottom , rgba(17, 131, 118, 0.5),rgb(77, 212, 145));
     z-index:2;
     transition:0.5s all 0.3s;
     opacity:0;
@@ -45,7 +45,7 @@
 .single .content{
     position: relative;
     z-index: 3;
-    color:#fff;
+    color:rgb(34, 16, 16);
     opacity: 0;
     transform:translateY(30px);
     transition: 0.5s all;
@@ -56,11 +56,11 @@
     transform:translateY(0px);
 }
 
-.single .content .btn {
+.single .content .button {
     text-decoration: none;
     padding:0.5rem 1rem;
     background: #fff;
-    color:#000;
+    color:rgb(252, 252, 252);
     font-weight: bold;
     cursor:pointer;
     transition:0.4s ease-in-out;

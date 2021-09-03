@@ -1,5 +1,3 @@
-
-    .app{
-       overflow-x: auto;
-    }
-
+.app{
+    overflow-x: clip;
+}

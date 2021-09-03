@@ -1,6 +1,7 @@
 import React from 'react'
 import { useHistory } from "react-router-dom";
 import './Header.css'
+import Typography from '@material-ui/core/Typography' 
 const Header = () => {
     let history = useHistory();
     const abc=()=>{
@@ -13,12 +14,11 @@ const Header = () => {
             </div>
             <div className='para'>
                 <p>
-                lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem * 12
-                lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem * 1
-                lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem * 12
-                lorem ipsum dolor sit amet lorem, consectetur adipiscing elit lorem *
+                  <h3><strong>🖐 Hey,</strong></h3>
+                   <h3><strong>I,M Saurabh , a web developer.</strong></h3>
+                    <strong> <Typography>A Web Developer from hils,with a flair for design, devoted to building quality websites that are easy to maintain and scalable.</Typography> </strong>
                 </p>
-                <button type="button" className="btn btn-outline-warning search" style={{'margin-bottom':'2vh'}} onClick={()=>{abc()}}>Know More</button>
+                <button type="button" className="btn btn-outline-warning search" style={{'margin-bottom':'2vh'}} onClick={()=>{window.location.assign('https://www.instagram.com/saurabhranaaaa__/')}}>Know More</button>
             </div>
         </div>
     )

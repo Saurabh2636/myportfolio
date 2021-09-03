@@ -1,8 +1,12 @@
 import React from "react";
 import "./Project.css";
-import Grid from '@material-ui/core/Grid'
+import Grid from "@material-ui/core/Grid";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
+import portfolio from "./image/portfolio.png";
+import food from "./image/food.png";
+import notes from "./image/notes.png";
+import covid from "./image/covid.png";
 const Project = () => {
   return (
     <div className="project">
@@ -10,59 +14,134 @@ const Project = () => {
         <div className="heading">
           <h1> Project</h1>
         </div>
-        <Grid container  justifyContent="center" spacing={10}>
+        <Grid container justifyContent="center" spacing={10}>
           <Grid item>
-          <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} className='single' >
-                <Card.Img variant="top" className='image' src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"/>
-                <Card.Body className="content">
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text >
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Button variant="primary" className="btn">Demo</Button>
-                </Card.Body>
-              </Card>
-            </Grid>
-            <Grid item>
-            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} className='single'>
-                <Card.Img variant="top" className='image' src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"/>
-                <Card.Body className="content">
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text >
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </Card.Text>
-                  <Button variant="primary" className="btn">Demo</Button>
-                </Card.Body>
-              </Card>
-            </Grid>
-            <Grid item>
-            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} className='single'>
-                <Card.Img variant="top" className='image' src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"/>
-                <Card.Body className="content">
-                  <Card.Title>Card Title</Card.Title>
-                  <Card.Text >
-                   <strong> Some quick example text to build on the card title and make
-                    up the bulk of the card's content.</strong>
-                  </Card.Text>
-                  <Button variant="primary" className="btn">Demo</Button>
-                </Card.Body>
-              </Card>
-            </Grid>
-            <Grid item>
-            <Card style={{ width: "18rem" ,margin:"auto"}}sm={4} className='single'>
-                <Card.Img variant="top" className='image' src="https://images.unsplash.com/photo-1630149461875-233003e5cbb7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=333&q=80"/>
-                <Card.Body className="content">
-                  <Card.Text >
-                  <Card.Title>Card Title</Card.Title>
-                    <strong>Some quick example text to build on the card title and make
-                    up the bulk of the card's content.</strong>
-                  </Card.Text>
-                  <Button variant="primary" className="btn">Demo</Button>
-                </Card.Body>
-              </Card>
-            </Grid>
+            <Card
+              style={{ width: "18rem", margin: "auto" }}
+              sm={4}
+              className="single"
+            >
+              <Card.Img variant="top" className="image" src={portfolio} />
+              <Card.Body className="content">
+                <Card.Title>
+                  <strong>portfolio</strong>
+                </Card.Title>
+                <Card.Text>
+                  <strong>
+                    create this portfolio using basic html css and javascript
+                    and reactjs.for making ui better lil bit use of material ui
+                    and bootstrap both.
+                  </strong>
+                </Card.Text>
+                <Button
+                  variant="danger"
+                  className="btn"
+                  onClick={() => {
+                    window.location.assign(
+                      "https://saurabh2636.github.io/myportfolio/"
+                    );
+                  }}
+                >
+                  Demo
+                </Button>
+              </Card.Body>
+            </Card>
+          </Grid>
+          <Grid item>
+            <Card
+              style={{ width: "18rem", margin: "auto" }}
+              sm={4}
+              className="single"
+            >
+              <Card.Img variant="top" className="image" src={food} />
+              <Card.Body className="content">
+                <Card.Title>
+                  <strong>recipe app</strong>
+                </Card.Title>
+                <Card.Text>
+                  <strong>
+                    the project contain multiple choice of meal.we can order
+                    breakfast ,dinner and many more dishes.at the end we can
+                    check bill.
+                  </strong>
+                </Card.Text>
+                <Button
+                  variant="danger"
+                  className="btn"
+                  onClick={() => {
+                    window.location.assign(
+                      "https://saurabh2636.github.io/Food/"
+                    );
+                  }}
+                >
+                  Demo
+                </Button>
+              </Card.Body>
+            </Card>
+          </Grid>
+          <Grid item>
+            <Card
+              style={{ width: "18rem", margin: "auto" }}
+              sm={4}
+              className="single"
+            >
+              <Card.Img variant="top" className="image" src={notes} />
+              <Card.Body className="content">
+                <Card.Title>
+                  <strong>notes</strong>
+                </Card.Title>
+                <Card.Text>
+                  <strong>
+                    this project able to store our notes or data in json server.
+                    we just need to install json server in our system
+                  </strong>
+                </Card.Text>
+                <Button
+                  variant="danger"
+                  className="btn"
+                  onClick={() => {
+                    window.location.assign(
+                      "https://saurabh2636.github.io/Mynotes/"
+                    );
+                  }}
+                >
+                  Demo
+                </Button>
+              </Card.Body>
+            </Card>
+          </Grid>
+          <Grid item>
+            <Card
+              style={{ width: "18rem", margin: "auto" }}
+              sm={4}
+              className="single"
+            >
+              <Card.Img variant="top" className="image" src={covid} />
+              <Card.Body className="content">
+                <Card.Text>
+                  <Card.Title>
+                    <strong>Covid</strong>
+                  </Card.Title>
+                  <strong>
+                    {" "}
+                    fetching corona updates from public apis.we can fetch data
+                    of any country.for fetching data we use axios{" "}
+                  </strong>
+                </Card.Text>
+                <Button
+                  variant="danger"
+                  className="btn"
+                  onClick={() => {
+                    window.location.assign(
+                      "https://saurabh2636.github.io/Covid-19/"
+                    );
+                  }}
+                >
+                  Demo
+                </Button>
+              </Card.Body>
+            </Card>
+          </Grid>
         </Grid>
       </div>
     </div>
