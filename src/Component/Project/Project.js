@@ -7,6 +7,8 @@ import portfolio from "./image/portfolio.png";
 import food from "./image/food.png";
 import notes from "./image/notes.png";
 import covid from "./image/covid.png";
+import chat from './image/chat1.png';
+import library from "./image/library.png";
 const Project = () => {
   return (
     <div className="project">
@@ -134,6 +136,67 @@ const Project = () => {
                   onClick={() => {
                     window.location.assign(
                       "https://saurabh2636.github.io/Covid-19/"
+                    );
+                  }}
+                >
+                  Demo
+                </Button>
+              </Card.Body>
+            </Card>
+          </Grid>
+          <Grid item>
+            <Card
+              style={{ width: "18rem", margin: "auto" }}
+              sm={4}
+              
+              className="single"
+            >
+              <Card.Img variant="top" className="image" src={chat} />
+              <Card.Body className="content">
+                <Card.Title>
+                  <strong>Chat app</strong>
+                </Card.Title>
+                <Card.Text>
+                  <strong>
+                   Real time chat application with the help of socket.io 
+                  </strong>
+                </Card.Text>
+                <Button
+                  variant="danger"
+                  className="btn"
+                  onClick={() => {
+                    window.location.assign(
+                      "https://chat2636.netlify.app/chat"
+                    );
+                  }}
+                >
+                  Demo
+                </Button>
+              </Card.Body>
+            </Card>
+          </Grid>
+          <Grid item>
+            <Card
+              style={{ width: "18rem", margin: "auto" }}
+              sm={4}
+              className="single"
+            >
+              <Card.Img variant="top" className="image" src={library} />
+              <Card.Body className="content">
+                <Card.Title>
+                  <strong>Library</strong>
+                </Card.Title>
+                <Card.Text>
+                  <strong>
+                  This project devloped in mern stack where we can do multiple operations (CRUD)
+                  </strong>
+                </Card.Text>
+                <Button
+                  variant="danger"
+                  className="btn"
+                  onClick={() => {
+                    window.location.assign(
+                      "https://saurabh2636.github.io/"
                     );
                   }}
                 >
