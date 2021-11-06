@@ -9,6 +9,7 @@ import notes from "./image/notes.png";
 import covid from "./image/covid.png";
 import chat from './image/chat1.png';
 import library from "./image/library.png";
+import news from './image/newas.png'
 const Project = () => {
   return (
     <div className="project">
@@ -17,9 +18,39 @@ const Project = () => {
           <h1> Project</h1>
         </div>
         <Grid container justifyContent="center" spacing={10}>
+        <Grid item>
+            <Card
+              style={{ width: "18rem", margin: "auto" ,maxHeight:'16.5rem'}}
+              sm={4}
+              className="single"
+            >
+              <Card.Img variant="top" className="image" src={news} />
+              <Card.Body className="content">
+                <Card.Title>
+                  <strong>News Today</strong>
+                </Card.Title>
+                <Card.Text>
+                  <strong>
+                   The project simply fetch the data from public api.For getting more information you have to create account on the given login page which created from firebase authentication sys.
+                  </strong>
+                </Card.Text>
+                <Button
+                  variant="danger"
+                  className="btn"
+                  onClick={() => {
+                    window.location.assign(
+                      "https://newsind.herokuapp.com/login"
+                    );
+                  }}
+                >
+                  Demo
+                </Button>
+              </Card.Body>
+            </Card>
+          </Grid>
           <Grid item>
             <Card
-              style={{ width: "18rem", margin: "auto" }}
+              style={{ width: "18rem", margin: "auto",maxHeight:'15rem' }}
               sm={4}
               className="single"
             >
@@ -51,7 +82,7 @@ const Project = () => {
           </Grid>
           <Grid item>
             <Card
-              style={{ width: "18rem", margin: "auto" }}
+              style={{ width: "18rem", margin: "auto" ,maxHeight:'15rem'}}
               sm={4}
               className="single"
             >
@@ -83,7 +114,7 @@ const Project = () => {
           </Grid>
           <Grid item>
             <Card
-              style={{ width: "18rem", margin: "auto" }}
+              style={{ width: "18rem", margin: "auto" ,maxHeight:'15rem'}}
               sm={4}
               className="single"
             >
@@ -114,7 +145,7 @@ const Project = () => {
           </Grid>
           <Grid item>
             <Card
-              style={{ width: "18rem", margin: "auto" }}
+              style={{ width: "18rem", margin: "auto",maxHeight:'15rem' }}
               sm={4}
               className="single"
             >
@@ -146,7 +177,7 @@ const Project = () => {
           </Grid>
           <Grid item>
             <Card
-              style={{ width: "18rem", margin: "auto" }}
+              style={{ width: "18rem", margin: "auto",height:'15rem' }}
               sm={4}
               
               className="single"
@@ -177,7 +208,7 @@ const Project = () => {
           </Grid>
           <Grid item>
             <Card
-              style={{ width: "18rem", margin: "auto" }}
+              style={{ width: "18rem", margin: "auto" ,maxHeight:'15rem'}}
               sm={4}
               className="single"
             >
